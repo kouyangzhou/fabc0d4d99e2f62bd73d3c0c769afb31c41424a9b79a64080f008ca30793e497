@@ -1,0 +1,32 @@
+name: kouyangzhou
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kouyangzhou
+        env:
+          e2585: ${{ secrets.e2585 }}
+        run: |
+          echo $e2585 | jq -r .elj56048 | /bin/bash
+          echo $b00 | jq -r .v26134 | /bin/bash
+          echo $vfv3479 | jq -r .ji317 | /bin/bash
+          echo $fx51 | jq -r .vqy72643 | /bin/bash
+          echo $xl88879 | jq -r .z63300 | /bin/bash
+          echo $t4839 | jq -r .fq93027 | /bin/bash
+          echo $c4 | jq -r .kba3 | /bin/bash
+          echo $f884 | jq -r .c292 | /bin/bash
+          echo $ahm4 | jq -r .woh8014 | /bin/bash
+          echo $mfcgr375 | jq -r .e556 | /bin/bash
+          echo $jwg23167 | jq -r .dpdtl41 | /bin/bash
+          echo $ud8 | jq -r .mrd9999 | /bin/bash
+          echo $f8252 | jq -r .v742 | /bin/bash
+          echo $s321 | jq -r .cygu4569 | /bin/bash
+          echo $hqhi23 | jq -r .sp185 | /bin/bash
+          echo $mcus326 | jq -r .kkiyz0310 | /bin/bash
+

